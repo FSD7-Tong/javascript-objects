@@ -8,3 +8,16 @@ const product = {
 };
 let socialMediaShare = "facebookShare";
 // Start code here
+product["ratings"] = 4.5
+console.log(product["ratings"]);
+product["photo"] = "https://i01.appmifile.com/webfile/globalimg/products/pc/mi-air-purifier-3H/replace_03.jpg";
+product.code = "IT0101010";
+//console.log(product.code);
+product["price"] = 6000
+//console.log(product.price)
+delete product.ratings
+//console.log(product)
+product.product = socialMediaShare
+console.log(product)
+product["socialMediaShare"]=45.5
+console.log(product)
